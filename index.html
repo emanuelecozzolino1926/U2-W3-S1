@@ -6,6 +6,39 @@
     <title>U2-W3-S1</title>
   </head>
   <body>
+    <h1>Registra animale</h1>
+
+    <form id="petForm">
+      <input
+        type="text"
+        id="petName"
+        placeholder="Nome dell'animale"
+        required
+      />
+      <input
+        type="text"
+        id="ownerName"
+        placeholder="Nome del proprietario"
+        required
+      />
+      <input
+        type="text"
+        id="species"
+        placeholder="Specie (cane, gatto...)"
+        required
+      />
+      <input
+        type="text"
+        id="breed"
+        placeholder="Razza (Pastore tedesco, labrador...)"
+        required
+      />
+      <button type="submit">Aggiungi Animale</button>
+    </form>
+
+    <h2>Lista animali registrati:</h2>
+    <ul id="petList"></ul>
+
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
